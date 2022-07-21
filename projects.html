@@ -105,7 +105,7 @@
 
       @font-face {
         font-family: preFont;
-        src: url(fonts/Waffle\ Story.ttf);
+        src: url(fonts/LoveChristabelaRegular.ttf);
       }
 
       footer {
@@ -114,11 +114,6 @@
       .bold {
         color: var(--bold-color);
         margin: 50px;
-      }
-      .pic {
-        display: flex;
-        justify-content: flex-end;
-        opacity: 80%;
       }
       .title {
         position: relative;
@@ -130,7 +125,7 @@
       .contents {
         text-align: center;
         margin-top: 10vh;
-        font-size: 1vw;
+        font-size: 1.8vw;
       }
       .contents h3 {
         font-family: contentsFont, sans-serif;
@@ -140,6 +135,11 @@
       .contents pre {
         font-family: preFont, sans-serif;
         color: #530a6e;
+      }
+
+      video {
+        width: "320";
+        height: "240";
       }
       #footer {
         position: fixed;
@@ -189,6 +189,28 @@
         }
         nav ul li a {
           color: #fff;
+        }
+
+        .contents {
+          text-align: center;
+        }
+
+        .contents h3 {
+          font-size: 70px;
+        }
+
+        .contents pre {
+          font-size: 30px;
+          display: none;
+        }
+
+        .navbar img {
+          visibility: none;
+        }
+
+        video {
+          width: 80%;
+          height: auto;
         }
       }
     </style>
