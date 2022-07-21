@@ -106,7 +106,7 @@
       }
 
       @font-face {
-        font-family:tabletitleFont;
+        font-family: tabletitleFont;
         src: url(fonts/Waffle\ Story.ttf);
       }
 
@@ -130,7 +130,7 @@
       }
 
       .title {
-        display: relative;
+        position: relative;
         text-align: center;
         font-size: 25px;
         font-family: titleFont, sans-serif;
@@ -149,8 +149,8 @@
       }
 
       .navbar img {
-          visibility: none;
-        }
+        visibility: hidden;
+      }
 
       table,
       th,
@@ -177,7 +177,6 @@
         font-size: 30px;
         padding: 5px;
       }
-      
 
       #footer {
         position: fixed;
@@ -227,31 +226,25 @@
           margin-bottom: 5px;
         }
         nav ul li a {
-          color:#fff;
+          color: #fff;
         }
 
         .contain {
-        display: flex;
-        flex-direction: column;
+          display: flex;
+          flex-direction: column;
         }
 
         table,
-      th,
-      td {
-        visibility: hidden;
-
-      }
-      
-      .navbar img {
+        th,
+        td {
           visibility: hidden;
         }
 
-        
+        .navbar img {
+          visibility: hidden;
+        }
       }
-    
     </style>
-
-    </script>
   </head>
 
   <body>
@@ -308,45 +301,45 @@
           </p>
         </div>
 
-          <table>
-            <caption>
-              My Timeline
-            </caption>
+        <table>
+          <caption>
+            My Timeline
+          </caption>
 
-            <colgroup>
-              <col style="background-color: lightcyan" />
-              <col span="3" style="background-color: lightgoldenrodyellow" />
-            </colgroup>
+          <colgroup>
+            <col style="background-color: lightcyan" />
+            <col span="3" style="background-color: lightgoldenrodyellow" />
+          </colgroup>
 
-            <tr>
-              <th>Job title</th>
-              <th>Begin - end date</th>
-              <th>Company</th>
-              <th>Job description</th>
-            </tr>
-            <tr>
-              <td>Frontend developer</td>
-              <td>6/20/2020- 8/20/2020</td>
-              <td>Startup</td>
-              <td>
-                I was responsible for using their knowledge of programming
-                languages to code user-side applications, including visual
-                elements like menu bars, clickable buttons and the overall
-                layout of websites or web applications
-              </td>
-            </tr>
-            <tr>
-              <td>Frontend developer</td>
-              <td>6/22/2021- 8/18/2021</td>
-              <td>Startup</td>
-              <td>
-                I was responsible for using their knowledge of programming
-                languages to code user-side applications, including visual
-                elements like menu bars, clickable buttons and the overall
-                layout of websites or web applications
-              </td>
-            </tr>
-          </table>
+          <tr>
+            <th>Job title</th>
+            <th>Begin - end date</th>
+            <th>Company</th>
+            <th>Job description</th>
+          </tr>
+          <tr>
+            <td>Frontend developer</td>
+            <td>6/20/2020- 8/20/2020</td>
+            <td>Startup</td>
+            <td>
+              I was responsible for using their knowledge of programming
+              languages to code user-side applications, including visual
+              elements like menu bars, clickable buttons and the overall layout
+              of websites or web applications
+            </td>
+          </tr>
+          <tr>
+            <td>Frontend developer</td>
+            <td>6/22/2021- 8/18/2021</td>
+            <td>Startup</td>
+            <td>
+              I was responsible for using their knowledge of programming
+              languages to code user-side applications, including visual
+              elements like menu bars, clickable buttons and the overall layout
+              of websites or web applications
+            </td>
+          </tr>
+        </table>
       </aside>
     </main>
 
